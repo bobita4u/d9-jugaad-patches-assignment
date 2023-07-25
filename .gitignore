@@ -49,6 +49,8 @@
 /web/robots.txt
 /web/update.php
 /web/web.config
+/web/modules/contrib/*
+/web/themes/contrib/*
 
 # Ignore vendor dependencies and scripts
 /vendor
@@ -60,3 +62,5 @@
 /drush
 /drupal.phar
 /drupal
+.DS_Store
+.idea/*
