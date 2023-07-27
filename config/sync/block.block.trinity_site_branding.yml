@@ -1,0 +1,25 @@
+uuid: 07316693-e0b6-4974-a029-867ac2b7db85
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - trinity
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: trinity_site_branding
+theme: trinity
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

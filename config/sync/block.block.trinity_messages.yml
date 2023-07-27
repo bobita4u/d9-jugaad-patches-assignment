@@ -1,16 +1,16 @@
-uuid: 9faf4527-c7e5-4dfe-bf1a-3d6de5697338
+uuid: acdfd68a-afb8-476d-a3f0-bd97604c8548
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - trinity
 _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
-id: olivero_messages
-theme: olivero
-region: highlighted
+id: trinity_messages
+theme: trinity
+region: navigation
 weight: -5
 provider: null
 plugin: system_messages_block

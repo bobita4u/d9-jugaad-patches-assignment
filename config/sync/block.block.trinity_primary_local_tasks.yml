@@ -1,14 +1,14 @@
-uuid: 1e7576fb-8057-4251-b981-c11c27f7770c
+uuid: 5726b7a5-ed65-481c-ab4d-6a22874943fd
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - trinity
 _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
-id: olivero_primary_local_tasks
-theme: olivero
-region: highlighted
+id: trinity_primary_local_tasks
+theme: trinity
+region: navigation
 weight: -4
 provider: null
 plugin: local_tasks_block

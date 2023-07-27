@@ -1,14 +1,14 @@
-uuid: c8d68de1-33aa-44c0-a6e3-c0991c51660d
+uuid: 5fec38c4-3e3c-41df-976c-a7405477dc64
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - trinity
 _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: olivero_page_title
-theme: olivero
-region: content_above
+id: trinity_page_title
+theme: trinity
+region: navigation
 weight: -5
 provider: null
 plugin: page_title_block

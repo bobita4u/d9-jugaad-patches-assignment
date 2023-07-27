@@ -1,0 +1,22 @@
+uuid: 63e3ad8d-7d64-4c68-8075-1e6fd72852d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - trinity
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: trinity_help
+theme: trinity
+region: navigation
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,16 +1,16 @@
-uuid: 0c77d8c5-b255-45ad-8f68-50bce07a2bed
+uuid: ebe76827-444f-459b-b984-96d4bcbdf094
 langcode: en
 status: true
 dependencies:
   module:
     - node
   theme:
-    - olivero
+    - trinity
 _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
-id: olivero_syndicate
-theme: olivero
-region: social
+id: trinity_syndicate
+theme: trinity
+region: navigation
 weight: 0
 provider: null
 plugin: node_syndicate_block

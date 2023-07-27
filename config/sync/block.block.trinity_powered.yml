@@ -1,16 +1,16 @@
-uuid: 72f59900-be66-4d53-b641-587281152c89
+uuid: 6104ebe2-0b8f-45d9-9052-251e7ec17e00
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - trinity
 _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
-id: olivero_powered
-theme: olivero
-region: footer_bottom
+id: trinity_powered
+theme: trinity
+region: navigation
 weight: 0
 provider: null
 plugin: system_powered_by_block
