@@ -1,0 +1,8 @@
+glo-libraries:
+  version: 1.x
+  js:
+    js/scripts.js: {}
+  css:
+    theme:
+      css/style.css: {}
+
