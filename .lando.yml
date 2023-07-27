@@ -2,7 +2,7 @@ name: d9demo
 recipe: drupal9
 config:
   webroot: web
-  php: '7.4'
+  php: '8.1'
   via: nginx
   drush: ^9
   database: mariadb
