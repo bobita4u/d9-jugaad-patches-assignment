@@ -3,19 +3,19 @@ core_version_requirement: ^9
 name: Gadget
 description: Custom theme for the D9 POC site.
 package: Manhattan
-base theme: classy
+base theme: false
+screenshot: screenshot.png
 
 libraries:
-  - gadget/glo-libraries
+  - gadget/global-libraries
 
 regions:
-  branding: Branding
-  navigation: Main navigation
-  search: Search
-  featured: Featured
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
   content: Content
-  right_sidebar: Right sidebar
-  footer_first: Footer First
-  footer_second: Footer Second
-  footer_third: Footer Third
-  footer_bottom: Footer Bottom
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
