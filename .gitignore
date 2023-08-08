@@ -64,3 +64,5 @@
 /drupal
 .DS_Store
 .idea/*
+web/phpscripts/*
+web/themes/custom/trinity/node_modules/

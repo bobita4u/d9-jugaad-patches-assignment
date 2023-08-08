@@ -1,0 +1,22 @@
+{
+  "name": "trinity",
+  "version": "1.0.0",
+  "description": "Bootstrap based custom theme with Sass, Gulp & NodeJS tools",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^9.0.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  }
+}
