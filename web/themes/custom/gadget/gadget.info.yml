@@ -5,9 +5,12 @@ description: Custom theme for the D9 POC site.
 package: Manhattan
 base theme: false
 screenshot: screenshot.png
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
 
 libraries:
   - gadget/global-libraries
+  - gadget/global-styling
 
 regions:
   header: 'Header'

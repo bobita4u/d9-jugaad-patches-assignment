@@ -65,4 +65,4 @@
 .DS_Store
 .idea/*
 web/phpscripts/*
-web/themes/custom/trinity/node_modules/
+web/themes/custom/*/node_modules/
