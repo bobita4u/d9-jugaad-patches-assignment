@@ -1,3 +1,16 @@
 body {
-  /*font: 100% Helvetica, sans-serif;*/
+  /*font: 100% $font-stack;*/
   color: #333; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+  @media (max-width: 768px) {
+    img {
+      max-width: 80%; } }
+
+img.qr-code-img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }

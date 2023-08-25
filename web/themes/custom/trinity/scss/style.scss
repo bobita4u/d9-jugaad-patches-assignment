@@ -2,6 +2,27 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
-  font: 100% $font-stack;
+  /*font: 100% $font-stack;*/
   color: $primary-color;
+}
+
+
+// styles.scss
+
+img {
+  max-width: 100%; // Ensure the image doesn't exceed its container
+  height: auto;   // Maintain aspect ratio
+  display: block; // Remove any extra spacing caused by inline-level elements
+
+  // Media queries for responsive design
+  @media (max-width: 768px) {
+    max-width: 80%; // Adjust for smaller screens
+  }
+}
+
+img.qr-code-img {
+  // Add other styles as needed
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
