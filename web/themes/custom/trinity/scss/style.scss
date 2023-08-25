@@ -1,5 +1,9 @@
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
+
+// _variables.scss
+$secondary-color: #6c757d;
+// Define more variables as needed
 
 body {
   /*font: 100% $font-stack;*/
@@ -11,7 +15,7 @@ body {
 
 img {
   max-width: 100%; // Ensure the image doesn't exceed its container
-  height: auto;   // Maintain aspect ratio
+  height: auto; // Maintain aspect ratio
   display: block; // Remove any extra spacing caused by inline-level elements
 
   // Media queries for responsive design
@@ -25,4 +29,23 @@ img.qr-code-img {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-3,
+.col-md-7 {
+  padding: 20px;
+}
+
+/* Apply your custom styles using the variables */
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .col-md-4,
+  .col-md-8 {
+    padding: 10px;
+  }
+}
+
+span.red {
+  color: red;
 }
