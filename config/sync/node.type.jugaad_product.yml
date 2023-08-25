@@ -1,0 +1,20 @@
+uuid: 41987910-6a47-424f-800e-c23d12129224
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: ly3Fam4IjXhRwqBiB14KB35CrEOy6gyBQ53yrUs6C4c
+name: 'Jugaad Product'
+type: jugaad_product
+description: 'This is a product that will contain a QR code for the App purchase link.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

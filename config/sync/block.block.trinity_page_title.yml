@@ -9,7 +9,7 @@ _core:
 id: trinity_page_title
 theme: trinity
 region: header
-weight: -5
+weight: -7
 provider: null
 plugin: page_title_block
 settings:

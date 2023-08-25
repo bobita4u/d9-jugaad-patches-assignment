@@ -9,7 +9,7 @@ _core:
 id: trinity_secondary_local_tasks
 theme: trinity
 region: header
-weight: -2
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:

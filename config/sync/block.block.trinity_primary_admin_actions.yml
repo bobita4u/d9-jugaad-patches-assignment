@@ -9,7 +9,7 @@ _core:
 id: trinity_primary_admin_actions
 theme: trinity
 region: header
-weight: -5
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

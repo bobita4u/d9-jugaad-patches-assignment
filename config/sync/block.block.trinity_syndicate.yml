@@ -1,6 +1,6 @@
 uuid: 358b477e-2cbb-44aa-8f33-d5ed237ec3f3
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - node
@@ -10,7 +10,7 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: trinity_syndicate
 theme: trinity
-region: header
+region: navigation_collapsible
 weight: 0
 provider: null
 plugin: node_syndicate_block
