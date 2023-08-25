@@ -1,0 +1,7 @@
+name: 'Jugaad QR code'
+type: module
+description: 'Generates QR codes for App Purchase links.'
+core_version_requirement: ^8 || ^9
+package: "Jugaad Patches"
+dependencies:
+  - drupal:block
