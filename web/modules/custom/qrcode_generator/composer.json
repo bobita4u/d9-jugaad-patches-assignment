@@ -14,5 +14,13 @@
             "type": "composer",
             "url": "https://packagist.org"
         }
-    ]
+    ],
+    "require": {
+        "endroid/qr-code": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\qrcode_generator\\": "src/"
+        }
+    }
 }

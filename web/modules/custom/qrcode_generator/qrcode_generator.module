@@ -1,1 +1,11 @@
 <?php
+/**
+ * Implements hook_theme().
+ */
+function qrcode_generator_theme() {
+  return [
+    'qr_code_image' => [
+      'variables' => ['image_data' => NULL],
+    ],
+  ];
+}
