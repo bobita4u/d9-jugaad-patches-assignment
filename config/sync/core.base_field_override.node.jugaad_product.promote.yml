@@ -1,0 +1,24 @@
+uuid: e302d491-5498-4d71-b494-1596adcdb9fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.jugaad_product
+_core:
+  default_config_hash: nR_BI2RrlD8n2Eb3GlKd5xM06sJYWJb-SurAfzqWGHY
+id: node.jugaad_product.promote
+field_name: promote
+entity_type: node
+bundle: jugaad_product
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

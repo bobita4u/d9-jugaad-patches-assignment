@@ -1,0 +1,30 @@
+body {
+  /*font: 100% $font-stack;*/
+  color: #333; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+  @media (max-width: 768px) {
+    img {
+      max-width: 80%; } }
+
+img.qr-code-img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+
+.col-md-3,
+.col-md-7 {
+  padding: 20px; }
+
+/* Apply your custom styles using the variables */
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .col-md-4,
+  .col-md-8 {
+    padding: 10px; } }
+
+span.red {
+  color: red; }

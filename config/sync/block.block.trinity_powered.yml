@@ -1,0 +1,22 @@
+uuid: a1f15f0b-ea5a-4801-9636-4bd3a752dc2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - trinity
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: trinity_powered
+theme: trinity
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

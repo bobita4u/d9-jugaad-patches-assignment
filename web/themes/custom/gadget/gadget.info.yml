@@ -1,0 +1,24 @@
+type: theme
+core_version_requirement: ^9
+name: Gadget
+description: Custom theme for the D9 POC site.
+package: Manhattan
+base theme: false
+screenshot: screenshot.png
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+
+libraries:
+  - gadget/global-libraries
+  - gadget/global-styling
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'

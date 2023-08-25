@@ -1,0 +1,22 @@
+uuid: 2d64fb29-51b2-461f-8c05-beaed1d2a931
+langcode: en
+status: true
+dependencies:
+  theme:
+    - trinity
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: trinity_primary_local_tasks
+theme: trinity
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

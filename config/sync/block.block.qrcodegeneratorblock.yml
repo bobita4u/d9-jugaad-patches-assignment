@@ -1,0 +1,28 @@
+uuid: 57a3df94-b23e-4e91-93c3-e02d836864b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - qrcode_generator
+  theme:
+    - trinity
+id: qrcodegeneratorblock
+theme: trinity
+region: sidebar_second
+weight: 0
+provider: null
+plugin: qrcode_generator_block
+settings:
+  id: qrcode_generator_block
+  label: 'Scan here on your mobile'
+  label_display: visible
+  provider: qrcode_generator
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      jugaad_product: jugaad_product

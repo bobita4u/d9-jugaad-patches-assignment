@@ -1,0 +1,7 @@
+name: 'QR code generator'
+type: module
+description: 'Generates QR codes from given links.'
+core_version_requirement: ^8 || ^9
+package: "Jugaad Patches"
+dependencies:
+  - jugaad_qr_code:jugaad_qr_code
