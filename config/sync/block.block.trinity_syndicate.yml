@@ -1,4 +1,4 @@
-uuid: ebe76827-444f-459b-b984-96d4bcbdf094
+uuid: 358b477e-2cbb-44aa-8f33-d5ed237ec3f3
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: trinity_syndicate
 theme: trinity
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: node_syndicate_block

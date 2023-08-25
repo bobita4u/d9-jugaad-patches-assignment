@@ -1,4 +1,4 @@
-uuid: 7b1793d9-6579-4378-a28f-93e7f5f9c875
+uuid: 439a5226-c293-4b7b-856b-edc5a50943da
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: trinity_account_menu
 theme: trinity
-region: navigation
+region: header
 weight: -4
 provider: null
 plugin: 'system_menu_block:account'

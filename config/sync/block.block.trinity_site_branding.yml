@@ -1,4 +1,4 @@
-uuid: 07316693-e0b6-4974-a029-867ac2b7db85
+uuid: 95b1c7da-6996-4997-88e9-9d42e9329210
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
 id: trinity_site_branding
 theme: trinity
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: system_branding_block

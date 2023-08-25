@@ -1,4 +1,4 @@
-uuid: 5fec38c4-3e3c-41df-976c-a7405477dc64
+uuid: 2d3ee052-e1ab-4a91-9a56-06f4fbfbad06
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: trinity_page_title
 theme: trinity
-region: navigation
+region: header
 weight: -5
 provider: null
 plugin: page_title_block

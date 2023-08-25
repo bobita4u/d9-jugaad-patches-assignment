@@ -1,4 +1,4 @@
-uuid: d85e9d22-8cf5-460b-860e-082bb57c4de7
+uuid: e06fea6c-4ce0-4fdc-8d94-b03ae29f6589
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
 id: trinity_secondary_local_tasks
 theme: trinity
-region: navigation
+region: header
 weight: -2
 provider: null
 plugin: local_tasks_block

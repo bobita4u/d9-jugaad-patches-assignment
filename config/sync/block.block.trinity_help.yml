@@ -1,4 +1,4 @@
-uuid: 63e3ad8d-7d64-4c68-8075-1e6fd72852d0
+uuid: 1fd71946-e1ba-4812-ac20-55d250734973
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: trinity_help
 theme: trinity
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: help_block

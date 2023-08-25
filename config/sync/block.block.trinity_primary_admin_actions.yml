@@ -1,4 +1,4 @@
-uuid: e7595db8-dfae-4dbe-b10d-b203d48f891f
+uuid: e61e6313-1516-46ad-9bdb-be26bac2c9ef
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: trinity_primary_admin_actions
 theme: trinity
-region: navigation
+region: header
 weight: -5
 provider: null
 plugin: local_actions_block

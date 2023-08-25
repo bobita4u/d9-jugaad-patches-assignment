@@ -1,4 +1,4 @@
-uuid: 6104ebe2-0b8f-45d9-9052-251e7ec17e00
+uuid: a1f15f0b-ea5a-4801-9636-4bd3a752dc2e
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: trinity_powered
 theme: trinity
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: system_powered_by_block

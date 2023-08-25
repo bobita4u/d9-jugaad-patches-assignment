@@ -1,4 +1,4 @@
-uuid: 138f2960-16bc-4ec2-a8b1-12f7511463d8
+uuid: 5f6009e5-da37-49a7-b868-fcde2ac8f1f9
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: trinity_breadcrumbs
 theme: trinity
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: system_breadcrumb_block
